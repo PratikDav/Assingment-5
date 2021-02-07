@@ -2,14 +2,7 @@ document.getElementById('searchBtn').addEventListener('click',()=>{             
     displayMeals();
     document.getElementById('food').innerHTML = '';
     document.getElementById('foodFullDetails').innerHTML = '';
-    const noMatchFond = document.getElementById('food').innerHTML;
-    if(noMatchFond === ''){
-        document.getElementById('food').innerHTML = `
-        <img id="sorryImage" src="images/sorry.png">
-        <h3 id="sorryText">Sorry! Your searching Food is Missing...</h3>
 
-        `;
-    }
 })
 
 
